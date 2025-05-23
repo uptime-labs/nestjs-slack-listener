@@ -41,7 +41,7 @@ export class SlackHandler {
         if (!filter(event)) {
           return;
         }
-      } catch (e) {
+      } catch {
         return;
       }
     }

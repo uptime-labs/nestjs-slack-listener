@@ -1,5 +1,5 @@
 import { View, KnownBlock } from '@slack/web-api';
-import { Member } from '@slack/web-api/dist/response/UsersListResponse';
+import { Member } from '@slack/web-api/dist/types/response/UsersListResponse';
 import { KnownAction } from '../types/action';
 import { SlackEventType } from '../types/event';
 
